@@ -58,6 +58,14 @@
   <ItemGroup>
     <Compile Include="Actions\ApplyPrefix.cs" />
     <Compile Include="Actions\ApplySuffix.cs" />
+    <Compile Include="Actions\DisplayNaming\ApplyPrefix.cs" />
+    <Compile Include="Actions\DisplayNaming\ApplySuffix.cs" />
+    <Compile Include="Actions\DisplayNaming\ChangeDisplayNameAction.cs" />
+    <Compile Include="Actions\DisplayNaming\EnsureMinimumLength.cs" />
+    <Compile Include="Actions\DisplayNaming\EnsureUnique.cs" />
+    <Compile Include="Actions\DisplayNaming\LowerCase.cs" />
+    <Compile Include="Actions\DisplayNaming\RemoveSpaces.cs" />
+    <Compile Include="Actions\DisplayNaming\ReplaceInvalidCharacters.cs" />
     <Compile Include="Actions\EnsureMinimumLength.cs" />
     <Compile Include="Actions\EnsureUnique.cs" />
     <Compile Include="Actions\Lowercase.cs" />
