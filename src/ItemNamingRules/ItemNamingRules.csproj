@@ -56,13 +56,17 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\ApplyPrefix.cs" />
+    <Compile Include="Actions\ApplySuffix.cs" />
     <Compile Include="Actions\EnsureMinimumLength.cs" />
     <Compile Include="Actions\EnsureUnique.cs" />
     <Compile Include="Actions\Lowercase.cs" />
+    <Compile Include="Actions\RemoveSpaces.cs" />
     <Compile Include="Actions\RenamingAction.cs" />
     <Compile Include="Actions\ReplaceInvalidCharacters.cs" />
     <Compile Include="Conditions\HasLayoutDetailsForAnyDevice.cs" />
     <Compile Include="Conditions\HasLayoutDetailsForDefaultDevice.cs" />
+    <Compile Include="Conditions\WhenIsDescendant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
